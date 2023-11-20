@@ -6,28 +6,28 @@ import Weather from '../../assets/Weather.png'
 const showings =[{
     name: "Project 1",
     image: Fureverhomed,
-    Description:" Description"
+    Description:" Description",
+    github: "https://github.com/ccoff1798/FureverHomed"
     },
     {
         name: "Project 1",
         image: JateShot,
-        Description:" Description"
+        Description:" Description",
+        github: "https://github.com/ccoff1798/JateEditor"
     },
     {
         name: "Project 1",
         image: RainOnParade,
-        Description:" Description"
+        Description:" Description",
+        github: "https://github.com/RedactdName/RainOnYourParade"
     },
     {
         name: "Project 1",
         image: Weather,
-        Description:" Description"
+        Description:" Description",
+        github: "https://github.com/ccoff1798/weatherforecast"
     },
-    {
-        name: "Project 1",
-        image: "working",
-        Description:" Description"
-    }
+  
 
 
 ]
@@ -38,6 +38,7 @@ export default function CardList() {
         <ul className="list-group">
         {showings.map((object) => (
           <li className="list-group-item" key={object.name}>
+             <a target="_blank" href={object.github}>
             <img
             
             class="rounded mx-auto d-block"
@@ -46,6 +47,7 @@ export default function CardList() {
               src={object.image}
               
             />
+            </a>
           </li>
         ))}
       </ul>

@@ -3,5 +3,9 @@ img {
     height: auto;
   }
   *{
-    background-color: aqua;
+    background-color: rgb(18, 135, 135);
+  }
+  
+  .list-group-item{
+    background-color: rgb(15, 44, 44);
   }
