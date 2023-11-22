@@ -4,27 +4,27 @@ import RainOnParade from '../../assets/Rainonparade.png'
 import Weather from '../../assets/Weather.png'
 
 const showings =[{
-    name: "Project 1",
+    name: "Furever Homed",
     image: Fureverhomed,
-    description: "Description",
+    description: "This is my first project using MySQL and NodeJs, however I have had experience with API's before this in another item. This project used Petfinder API to locate animals based on species, breed, location, or other search criteria to help them become Furever Homed",
     github: "https://github.com/ccoff1798/FureverHomed"
     },
     {
-        name: "Project 1",
+        name: "JATE Text Editor",
         image: JateShot,
-        description: "Description",
+        description: "This one is a less intensive portfolio piece, it is a simple text editor, the main purpose of which was to practice installing software using webpack.",
         github: "https://github.com/ccoff1798/JateEditor"
     },
     {
-        name: "Project 1",
+        name: "Rain On Your Parade",
         image: RainOnParade,
-        description: "Description",
+        description: "This is my first sizable project we did during out bootcamp, it was used to locate events such as concerts, parades, sporting events, or a variaty of other categories in a searched location, and to populate the expected weather for that event at that time to make sure it doesn't Rain on Your Parade",
         github: "https://github.com/RedactdName/RainOnYourParade"
     },
     {
-        name: "Project 1",
+        name: "Weather Forecast",
         image: Weather,
-        description: "Description",
+        description: "This was a prototype of the Rain on Your Parade Project to get familar with using public API's.",
         github: "https://github.com/ccoff1798/weatherforecast"
     },
   
@@ -42,9 +42,8 @@ export default function CardList() {
              <a target="_blank" href={object.github}>
             <img
             
-            class="rounded mx-auto d-block img-fluid text-center"
+            className="rounded mx-auto d-block img-fluid text-center img-fluid card-image"
               alt={object.name}
-              className="img-fluid"
               src={object.image}
               
             />

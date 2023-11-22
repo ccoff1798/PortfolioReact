@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -38,5 +38,110 @@
 }
 
 .read-the-docs {
-  color: #888;
+  /* color: #888;
+} 
+* {
+  color: rgba(15, 17, 74, 0.506);
+  -webkit-text-stroke-width: .05rem;
+  -webkit-text-stroke-color: black;
 }
+a{
+  color: aliceblue;
+}
+h1 {
+  font-size: 5em;
+  text-shadow: 2px 2px 2px black;
+}
+h2 {
+  font-size: 2.5em;
+  text-shadow: 1px 1px 2px black;
+}
+h3 {
+  font-size: 2.5em;
+  text-shadow: 1px 1px 2px black;
+}
+
+h5 {
+  font-size: 2.5em;
+  text-shadow: 1px 1px 2px black;
+}
+
+h6 {
+  font-size: 2.5em;
+  text-shadow: 1px 1px 2px black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.home-title{
+  text-align: center;
+  margin: 5rem;
+}
+.home-text{
+  text-align: center;
+  margin: 3rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+
+}
+.card-title{
+ text-decoration: underline;
+ text-align: center;
+ margin-bottom: 1rem;
+}
+.card-text{
+  margin-top: 1rem;
+}
+.card-image:hover {
+  box-shadow: 5px 5px 10px 10px darkblue;
+}
+
+.my-photo {
+  scale: 75%;
+  margin: .025rem;
+  padding: .025rem;
+  height: auto;
+  width: 50%;
+  align-items: center;
+}
+
+.list-group {
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+.list-group-item {
+  /* background-color: rgb(15, 44, 44); 
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 5px 5px darkblue;
+  border-radius: 25px;
+
+}
+
+body {
+  background-image: url("https://st2.depositphotos.com/4275241/6307/i/950/depositphotos_63077335-stock-photo-frozen-ice-seamless-and-tileable.jpg");
+}
+
+ .nav-tabs{  
+    background-color: black;
+  }
+  .nav-item{  
+    background-color: black;
+  } 
+li.nav-item.active {
+  background-color: black;
+  color: aqua;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+} */
