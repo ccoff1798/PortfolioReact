@@ -21,14 +21,14 @@ function NavTabs() {
           About
         </Link>
       </li>
-      {/* <li className="nav-item">
+      <li className="nav-item">
         <Link
-          to="/Blog"
-          className={currentPage === '/Blog' ? 'nav-link active' : 'nav-link'}
+          to="/Works"
+          className={currentPage === '/Works' ? 'nav-link active' : 'nav-link'}
         >
-          Blog
+          Works
         </Link>
-      </li> */}
+      </li>
       <li className="nav-item">
         <Link
           to="/Contact"
