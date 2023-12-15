@@ -2,8 +2,14 @@ import Fureverhomed from '../../assets/Fureverhomed.png'
 import JateShot from '../../assets/JateShot.png'
 import RainOnParade from '../../assets/Rainonparade.png'
 import Weather from '../../assets/Weather.png'
+import Breadcrumbs from '../../assets/breadcrumbs.png'
 
 const showings =[{
+  name: "BreadCrumbs",
+    image: Breadcrumbs,
+    description: "This project uses MongoDb, Express, React and NodeJs to keep track of friends when going out. It uses the Google Maps Api to locate the user and their friends, and allows them to add friends to their group, and to see where they are in relation to the user.",
+    github: "https://github.com/RedactdName/friendTracker"
+    },{
     name: "Furever Homed",
     image: Fureverhomed,
     description: "This is my first project using MySQL and NodeJs, however I have had experience with API's before this in another item. This project used Petfinder API to locate animals based on species, breed, location, or other search criteria to help them become Furever Homed",
