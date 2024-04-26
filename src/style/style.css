@@ -1,8 +1,23 @@
 * {
-  color: rgba(15, 17, 74, 0.506);
+  color: rgba(255, 255, 255, 0.966);
   -webkit-text-stroke-width: .05rem;
   -webkit-text-stroke-color: black;
+  
 }
+html, body {
+  height: 100%;  /* Ensure minimum height covers the full viewport */
+  margin: 0;     /* Reset default margin */
+  padding: 0;    /* Reset default padding */
+}
+
+body {
+  background: rgb(246,214,187);
+  background: linear-gradient(0deg, rgba(246,214,187,1) 5%, rgba(215,203,102,0.4374124649859944) 47%, rgba(0,212,255,1) 100%);
+  background-repeat: no-repeat;       /* Prevent the background from repeating */
+  background-attachment: fixed;        /* Fix the background relative to the viewport */
+  background-size: cover;              /* Ensure background covers the entire element */
+}
+
 a{
   color: aliceblue;
 }
@@ -36,11 +51,12 @@ li{
 } */
 
 .nav-link{
-  color:white;
+  color:rgb(124, 41, 41);
   
 }
 .navbar{
-  background-color: black;
+  background: rgba(0,212,255,0.4374124649859944) 100%;
+  
 }
 .active{
   border-style: solid;
@@ -110,9 +126,11 @@ img {
 
 }
 
-body {
-  background-image: url("../assets/Background.png");
-}
+/* body {
+  background: rgb(246,214,187);
+  background: linear-gradient(0deg, rgba(246,214,187,1) 5%, rgba(215,203,102,0.4374124649859944) 47%, rgba(0,212,255,1) 100%);
+  min-height: 100%;
+} */
 .contact-title{
   text-align: center;
   margin-bottom: 5rem;
