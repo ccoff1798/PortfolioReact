@@ -8,6 +8,7 @@ export default function Home() {
       <h2 className = "home-text">
         Here you will find a collection of my works, as well as a little bit about me. Please feel free to take a look around, and if you have any questions, or would like to get in touch, please visit the Contact page.
       </h2>
+      <Cards />
     </div>
   );
 }

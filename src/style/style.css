@@ -16,6 +16,7 @@ body {
   background-repeat: no-repeat;       /* Prevent the background from repeating */
   background-attachment: fixed;        /* Fix the background relative to the viewport */
   background-size: cover;              /* Ensure background covers the entire element */
+ 
 }
 
 a{
@@ -84,6 +85,7 @@ img {
   margin-bottom: 6rem;
 
 }
+
 .card-title{
  text-decoration: underline;
  text-align: center;
@@ -111,9 +113,11 @@ img {
 }
 
 .list-group {
-  margin: 2rem;
+  margin: auto;
   padding: 1rem;
   border-radius: 25px;
+  width: 75%;
+  justify-content: center;
 }
 
 .list-group-item {
