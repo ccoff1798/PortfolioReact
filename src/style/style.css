@@ -1,35 +1,46 @@
 * {
-  color: rgba(255, 255, 255, 0.966);
-  -webkit-text-stroke-width: .05rem;
-  -webkit-text-stroke-color: black;
-  
+   color: rgba(255, 255, 255, 0.966);
+  -webkit-text-stroke-width: .005rem;
+  -webkit-text-stroke-color: black; 
+
 }
-html, body {
-  height: 100%;  /* Ensure minimum height covers the full viewport */
-  margin: 0;     /* Reset default margin */
-  padding: 0;    /* Reset default padding */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background: rgb(246,214,187);
-  background: linear-gradient(0deg, rgba(246,214,187,1) 5%, rgba(215,203,102,0.4374124649859944) 47%, rgba(0,212,255,1) 100%);
-  background-repeat: no-repeat;       /* Prevent the background from repeating */
-  background-attachment: fixed;        /* Fix the background relative to the viewport */
-  background-size: cover;              /* Ensure background covers the entire element */
+  background: rgb(246, 214, 187);
+  background: linear-gradient(0deg, rgba(246, 214, 187, 1) 5%, rgba(215, 203, 102, 0.4374124649859944) 47%, rgba(0, 212, 255, 1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
  
+
 }
 
-a{
-  color: aliceblue;
+
+a {
+  font-size: 2em;
+  text-shadow: 2px 2px 2px black;
+  color: rgba(255, 255, 255, 0.966);
 }
+
 h1 {
   font-size: 5em;
   text-shadow: 2px 2px 2px black;
+  color: rgba(255, 255, 255, 0.966);
+
 }
+
 h2 {
   font-size: 2em;
   text-shadow: 1px 1px 2px black;
 }
+
 h3 {
   font-size: 2em;
   text-shadow: 1px 1px 2px black;
@@ -44,63 +55,121 @@ h6 {
   font-size: 2em;
   text-shadow: 1px 1px 2px black;
 }
-/* ul{
-  color: rgba(15, 17, 74, 0.506);
+link {
+  color: rgba(255, 255, 255, 0.966);
+  -webkit-text-stroke-width: .05rem;
+  -webkit-text-stroke-color: black;
 }
-li{
-  color: rgba(15, 17, 74, 0.506);
+
+
+
+
+.navbar {
+  background: rgba(0, 212, 255, 0.1) 100%;
+
+}
+
+/* .active {
+  border-style: solid;
+  border-color: blue;
 } */
 
-.nav-link{
-  color:rgb(124, 41, 41);
-  
+.nav-link {
+  color: rgb(161, 210, 223); /* Default state color */
+  font-size: 1.5em; 
 }
-.navbar{
-  background: rgba(0,212,255,0.4374124649859944) 100%;
-  
-}
-.active{
-  border-style: solid;
-  border-color: blue;
-}
+
 .nav-link.active {
+  color: orange;
   outline: 2px solid blue;
   outline-offset: 2px;
-border-radius: 10px;
+  border-radius: 10px;
 }
 
+.navbar-brand{
+  color: rgb(161, 210, 223);
+  -webkit-text-stroke-width: .0rem;
+  -webkit-text-stroke-color: black;
 
-img {
-  width: 100%;
-  height: auto;
 }
-.home-title{
+
+.nav-item {
+  margin: 1rem;
+  font-size: 1.5em;
+}
+
+.navbar-image {
+ height: 5rem;
+}
+
+.home-title {
+  text-align: start;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.home-text {
   text-align: center;
-  margin: 3rem;
+  margin: auto;
+
+
 }
-.home-text{
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(244, 146, 18, 0.546);
+  margin: 5rem;
+  width: 80%;
   text-align: center;
-  margin: 3rem;
-  margin-top: 3rem;
-  margin-bottom: 6rem;
+  background: rgb(246, 214, 187);
+  background: radial-gradient(circle, rgba(246, 214, 187, .5) 5%, rgba(215, 203, 102, .5) 47%, rgba(0, 212, 255, .5) 100%);
+  border-radius: 10px;
+
 
 }
 
-.card-title{
- text-decoration: underline;
- text-align: center;
- margin-bottom: 1rem;
+.card-title {
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 1rem;
 }
-.card-text{
+
+.card-text {
   margin-top: 1rem;
 }
-.card-image{
-  border: .5rem;
-  border-style: solid;
-  border-color: aliceblue;
+
+.card-image {
+  width: 85%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  border: 2px solid transparent;
 }
+
 .card-image:hover {
   border-color: blue;
+}
+
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.card-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-description {
+  margin: 2rem;
 }
 
 .my-photo {
@@ -120,51 +189,124 @@ img {
   justify-content: center;
 }
 
-.list-group-item {
-  /* background-color: rgb(15, 44, 44); */
-  margin: 1rem;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 10px 5px 5px darkblue;
-  border-radius: 25px;
-
-}
-
-/* body {
-  background: rgb(246,214,187);
-  background: linear-gradient(0deg, rgba(246,214,187,1) 5%, rgba(215,203,102,0.4374124649859944) 47%, rgba(0,212,255,1) 100%);
-  min-height: 100%;
-} */
-.contact-title{
+.contact-title {
   text-align: center;
-  margin-bottom: 5rem;
+  margin: auto;
 }
-.contact{
-  width: 25rem ;
+
+.contact {
+  width: 25rem;
   height: auto;
 }
-.contact-page{
+
+.contact-page {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   height: 150px;
+  margin-top: 10rem;
 }
-
-/* .nav-tabs{  
-    background-color: black;
-  }
-  .nav-item{  
-    background-color: black;
-  } */
-/* li.nav-item.active {
-  background-color: black;
-  color: aqua;
-} */
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 75%;
   text-align: center;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media (max-width: 768px) {
+
+  h1,
+  .home-title {
+    font-size: 3em;
+  }
+
+  h2,
+  h3,
+  h5,
+  h6 {
+    font-size: 1.5em;
+  }
+
+  .card,
+  .contact {
+    width: 90%;
+    margin: 2rem;
+  }
+
+  .card-list,
+  .contact-page {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-image {
+    width: 100%;
+  }
+
+  .nav-link,
+  a {
+    font-size: 1.5em;
+  }
+
+  .list-group {
+    width: 90%;
+  }
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media (max-width: 600px) {
+  body {
+    background-size: auto;
+  }
+
+  h1,
+  .home-title {
+    font-size: 2em;
+  }
+
+  h2,
+  h3,
+  h5,
+  h6,
+  .nav-link,
+  a {
+    font-size: 1.2em;
+  }
+
+  .card,
+  .contact {
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .card-image {
+    margin-bottom: 1rem;
+  }
+
+  .nav-link,
+  a {
+    padding: 10px 5px;
+  }
+
+  .card-description,
+  .card-text,
+  .contact-title {
+    margin: 1rem;
+  }
+
+  .my-photo {
+    width: 75%;
+  }
 }

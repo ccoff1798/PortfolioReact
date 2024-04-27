@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import golden from '../assets/golden.svg'
 
 function NavTabs() {
   const currentPage = useLocation().pathname;
@@ -9,7 +10,7 @@ function NavTabs() {
 
   return (
     <nav className="navbar navbar-expand-lg">
-      <Link className="navbar-brand" to="/">Cody Coffey</Link>
+      <Link className="navbar-brand" to="/"><img className = 'navbar-image'src={golden} alt="Logo" /></Link>
       <button 
         className="navbar-toggler" 
         type="button" 
