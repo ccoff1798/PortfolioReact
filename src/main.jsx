@@ -14,7 +14,7 @@ import CardDetail from './components/Cards/CardDetail';
 import Works from './pages/Works';
 
 
-const router = creatHashRouter([
+const router = creatBrowserRouter([
   {
     path: '/',
     element: <App />,
