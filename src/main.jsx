@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter,createHashRouter RouterProvider } from 'react-router-dom';
+import { createBrowserRouter,createHashRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import App from './App';
@@ -14,7 +14,7 @@ import CardDetail from './components/Cards/CardDetail';
 import Works from './pages/Works';
 
 
-const router = creatBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <App />,

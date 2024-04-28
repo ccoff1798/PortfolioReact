@@ -65,7 +65,7 @@ link {
 
 
 .navbar {
-  background: rgba(0, 212, 255, 0.1) 100%;
+  background: rgba(0, 212, 255, 0.05) 100%;
 
 }
 
@@ -253,6 +253,7 @@ link {
   .card-image {
     width: 100%;
   }
+  
 
   .nav-link,
   a {
